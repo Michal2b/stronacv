@@ -1,0 +1,70 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    background-color: rgb(253, 254, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+  width: 132px;
+  height: 170px;
+}
+
+ table {
+      width: 20%;
+      border-collapse: collapse;
+      margin-top: 25px;
+	  text-align: center
+    }
+	
+    th, td {
+      padding: 15px;
+      text-align: center;
+    }
+ footer {
+      text-align: left;
+      margin-top: 30px;
+      padding: 85px;
+    }
+.całość {
+	font-family: 'Times New Roman',sans-serif;
+	font-size: 18px;
+    width: 100%;
+    max-width: 1860px;
+    min-height: 960px;
+    background-color: rgb(245, 239, 231);
+    margin: 3px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+	gap: 7px;
+	grid-auto-rows: minmax(100px, auto);
+}
+.lewy {
+    position: initial;
+    background-color: rgb(126, 219, 231);
+    padding: 20px;
+ 
+}
+.prawastrona {
+    position: relative;
+    background-color:dark;
+    padding: 12px;
+ 
+}
+.obraz, .Kontakt, .umiejętności, .język, .hobby, .nagłówek, 
+.skrót, .doświadczenie, .edukacja {
+    margin-bottom: 25px;
+}
+.Kontakt{
+	float: left;
+}
+
+}
+.h2 {
+    background-color: rgb(4, 96, 150);
+}
